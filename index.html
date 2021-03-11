@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Dashboard</title>
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="left-side">
+      <div class="logo"><a href="#" class="logo"><svg class="icon">
+            <use xlink:href="img/icon.svg#logo"></use>
+          </svg> cloudcash</a></div>
+      <div class="menu" id="menu">
+        <button class="link active" href="#">
+          <svg class="icon">
+            <use xlink:href="img/icon.svg#Overview"></use>
+          </svg>
+          Overview</button>
+        <button class="link" href="#">
+          <svg class="icon">
+            <use xlink:href="img/icon.svg#Transactions"></use>
+          </svg>
+          Transactions</button>
+        <button class="link" href="#">
+          <svg class="icon">
+            <use xlink:href="img/icon.svg#Cards"></use>
+          </svg>
+          Cards</button>
+        <button class="link" href="#">
+          <svg class="icon">
+            <use xlink:href="img/icon.svg#Invoices"></use>
+          </svg>
+          Invoices</button>
+        <button class="link" href="#">
+          <svg class="icon">
+            <use xlink:href="img/icon.svg#Goals"></use>
+          </svg>
+          Goals</button>
+        <button class="link" href="#">
+          <svg class="icon">
+            <use xlink:href="img/icon.svg#Settings"></use>
+          </svg>
+          Settings</button>
+      </div>
+      <!--/menu-->
+
+      <div class="bottom">
+        <img src="img/bottomMenuImg.svg" alt="cloud">
+        <p>Give your money <br>
+          awesome space in cloud</p>
+
+        <button>Upgrade to premium</button>
+      </div>
+      <!--/bottom-->
+    </div><!-- /left-side -->
+
+    <div class="content">
+      <div class="top-header">
+        <div class="header">
+          <h1>Weekly sumup</h1>
+          <p>Get summary of your weekly online transactions here.</p>
+        </div>
+        <div class="admin">
+          <div class="icons">
+            <button>
+              <svg class="icon">
+                <use xlink:href="img/icon.svg#mail"></use>
+              </svg>
+            </button>
+            <button>
+              <svg class="icon">
+                <use xlink:href="img/icon.svg#bell"></use>
+              </svg>
+            </button>
+          </div>
+          <!--icons-->
+          <div class="profile">
+            <div class="photo">
+              <img src="img/photoProfile.png" alt="profile">
+            </div>
+            <div class="info">
+              <h4>Andrew</h4>
+              <p>Admin account</p>
+            </div>
+          </div>
+          <!--/profile-->
+        </div>
+      </div><!-- /top-header -->
+
+      <div class="full-desktop">
+        <div class="left-block">
+          <div class="cards">
+            <h3>Cards</h3>
+            <div class="swiper-container cardSlider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="main-info">
+                    <div class="card">
+                      <div class="card-example">
+                        <div class="card-name">
+                          <h4>cloudcash</h4>
+                          <span>PREMIUM ACCOUNT</span>
+                        </div><!-- /card-name -->
+
+                        <p>5789 **** **** 2847</p>
+                        <div class="card-bottom">
+                          <div class="left">
+                            <span>Card holder</span>
+                            <h5>Mike Smith</h5>
+                          </div>
+                          <div class="right">
+                            <span>Expire date</span>
+                            <h5>06/21</h5>
+                          </div>
+                        </div><!-- /card-bottom-->
+                      </div><!-- /card-example -->
+                    </div><!-- /card -->
+                    <div class="card-info">
+                      <div class="current">
+                        <h3>$ 2850.75</h3>
+                        <span>Current balance</span>
+                      </div>
+                      <div class="income">
+                        <h3>$ 1500.50</h3>
+                        <span>Income</span>
+                      </div>
+                      <div class="outcome">
+                        <h3>$ 350.60</h3>
+                        <span>Outcome</span>
+                      </div>
+                    </div><!-- /card-info -->
+                  </div><!-- /main-info-->
+                  <div class="bottom">
+                    <div class="limit">
+                      <progress value="350.60" max="4000"></progress>
+
+                      <div class="lable">
+                        <span>Weekly payment limit</span>
+                        <p>$350.60 / $4000</p>
+                      </div>
+                    </div><!-- /limit-->
+                    <div class="deactivate">
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                      </label>
+                      <span>Deacivate card</span>
+                    </div><!-- /deactivate -->
+                  </div><!-- /bottom-->
+
+
+                </div><!-- /swiper-slide card 1 -->
+                <div class="swiper-slide">
+                  <div class="main-info">
+                    <div class="card next-card">
+                      <div class="card-example">
+                        <div class="card-name">
+                          <h4>cloudcash</h4>
+                          <span>PREMIUM ACCOUNT</span>
+                        </div><!-- /card-name -->
+
+                        <p>5789 **** **** 2847</p>
+                        <div class="card-bottom">
+                          <div class="left">
+                            <span>Card holder</span>
+                            <h5>Mike Smith</h5>
+                          </div>
+                          <div class="right">
+                            <span>Expire date</span>
+                            <h5>06/21</h5>
+                          </div>
+                        </div><!-- /card-bottom-->
+                      </div><!-- /card-example -->
+                    </div><!-- /card -->
+                    <div class="card-info">
+                      <div class="current">
+                        <h3>$ 2850.75</h3>
+                        <span>Current balance</span>
+                      </div>
+                      <div class="income">
+                        <h3>$ 900.50</h3>
+                        <span>Income</span>
+                      </div>
+                      <div class="outcome">
+                        <h3>$ 330.60</h3>
+                        <span>Outcome</span>
+                      </div>
+                    </div><!-- /card-info -->
+                  </div><!-- /main-info-->
+                  <div class="bottom">
+                    <div class="limit">
+                      <progress value="654.60" max="1000"></progress>
+
+                      <div class="lable">
+                        <span>Weekly payment limit</span>
+                        <p>$654.60.60 / $1000</p>
+                      </div>
+                    </div><!-- /limit-->
+                    <div class="deactivate">
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                      </label>
+                      <span>Deacivate card</span>
+                    </div><!-- /deactivate -->
+                  </div><!-- /bottom-->
+
+
+                </div><!-- /swiper-slide card 2 -->
+              </div><!-- /swiper-wrapper -->
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div><!-- /swiper-container -->
+          </div><!-- /cards-->
+          <div class="transaction">
+            <h3>Transaction history</h3>
+            <table id="transaction">
+              <tr>
+                <th>Reciever</th>
+                <th>Type</th>
+                <th>Date</th>
+                <th class="thAmount">Amount</th>
+              </tr>
+              <tr>
+                <td class="reciever">
+                  <div class="transaction-icon">
+                    <svg class="icon">
+                      <use xlink:href="img/transaction.svg#market"></use>
+                    </svg>
+                  </div> Tesco Market
+                </td>
+                <td>Shopping</td>
+                <td>13 Dec 2020</td>
+                <td class="amount">$75.67</td>
+              </tr>
+              <tr>
+                <td class="reciever">
+                  <div class="transaction-icon">
+                    <svg class="icon">
+                      <use xlink:href="img/transaction.svg#car"></use>
+                    </svg>
+                  </div> ElectroMen Market
+                </td>
+                <td>Shopping</td>
+                <td>14 Dec 2020</td>
+                <td class="amount">$250.00</td>
+              </tr>
+              <tr>
+                <td class="reciever">
+                  <div class="transaction-icon">
+                    <svg class="icon">
+                      <use xlink:href="img/transaction.svg#feather"></use>
+                    </svg>
+                  </div> Fiorgio Restaurante
+                </td>
+                <td>Food</td>
+                <td>07 Dec 2020</td>
+                <td class="amount">$19.50</td>
+              </tr>
+              <tr>
+                <td class="reciever">
+                  <div class="transaction-icon">
+                    <svg class="icon">
+                      <use xlink:href="img/transaction.svg#person"></use>
+                    </svg>
+                  </div> John Mathew Kayne
+                </td>
+                <td>Sport</td>
+                <td>06 Dec 2020</td>
+                <td class="amount">$350</td>
+              </tr>
+              <tr>
+                <td class="reciever">
+                  <div class="transaction-icon">
+                    <svg class="icon">
+                      <use xlink:href="img/transaction.svg#person"></use>
+                    </svg>
+                  </div> Ann Marlin
+                </td>
+                <td>Shopping</td>
+                <td>31 Nov 2020</td>
+                <td class="amount">$430</td>
+              </tr>
+            </table>
+          </div><!-- /transaction -->
+        </div><!-- /left-side -->
+        
+
+        <div class="right-block">
+          <div class="goals">
+            <div class="head">
+              <h3>Goals</h3>
+              <button class="addGoal" onclick="document.getElementById('id01').style.display='block'"></button>
+            </div>
+
+            <div id="id01" class="modal">
+              <div class="modal-content">
+                <header>
+
+                  <h2>Add new goal</h2>
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close">&times;</span>
+                </header><!-- /header-->
+                <div class="container">
+                  <p>Enter your goal:</p>
+
+                  <form id="contact" name="contact" action="#" method="post">
+                     <br>
+                     <table>
+                       <tr>
+                         <th>How many?</th>
+                         <th>Until</th>
+
+                       </tr>
+                       <tr>
+                         <td><input name="currency" id="currency" type="text" pattern="[0-9]{6}" maxlength="6"
+                             placeholder="0" /></td>
+                         <td><input type="date" name="date" id="date" /></td>
+
+                       </tr>
+
+                     </table>
+
+                    <br><b> Choose icon: </b><br>
+                    <div class="choose-icon">
+                     <input type="radio" name="icon" id="electonics" value="electonics"> <img src="img/electronics.svg" alt="icon"> 
+                    <input type="radio" name="icon" id="shopping" value="Shopping"> <img src="img/shopping.svg"
+                      alt="icon"> 
+                    <input type="radio" name="icon" id="travels" value="Travels"> <img src="img/travels.svg" alt="icon"> 
+                    <br>
+                    <input type="radio" name="icon" id="renovation" value="Renovation"> <img src="img/brush.svg" alt="icon">
+                    <input type="radio" name="icon" id="holidays" value="Holidays"> <img src="img/holidays.svg"
+                      alt="icon">
+                      <input type="radio" name="icon" id="games" value="Games"> <img src="img/play.svg"
+                        alt="icon"> 
+                    </div>
+                    
+                    <br>
+                    <b> For what? </b>
+                    <br>
+
+                    <input type="text" name="goal" id="goal" /><br>
+                    <br>
+
+                  </form>
+                </div><!-- /container -->
+                <footer>
+                  <br>
+                  <button onclick="document.getElementById('id01').style.display='none' ; newGoal()  ">Try
+                    it</button><br>
+
+                </footer><!-- /footer-->
+              </div><!-- /modal-content-->
+            </div><!-- /modal-->
+
+            <div class="slider">
+              <div class="swiper-container goalsList">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="goal-block">
+                      <p>$550</p>
+                      <span>12/20/20</span>
+                      <img src="img/holidays.svg" alt="icon">
+                      <h5>Holidays</h5>
+                    </div>
+                  </div><!-- 1 goal -->
+                  <div class="swiper-slide">
+                    <div class="goal-block">
+                      <p>$200</p>
+                      <span>12/20/20</span>
+                      <img src="img/brush.svg" alt="icon">
+                      <h5>Renovation</h5>
+                    </div>
+
+                  </div><!-- 2 goal -->
+                  <div class="swiper-slide">
+                    <div class="goal-block">
+                      <p>$820</p>
+                      <span>12/20/20</span>
+                      <img src="img/play.svg" alt="icon">
+                      <h5>Xbox</h5>
+                    </div>
+
+                  </div><!-- 3 goal-->
+                </div><!-- /swiper-wrapper -->
+                <!-- Add Arrows -->
+
+              </div><button class="button-next">
+                <img src="img/arrow-next.svg" alt="arrow" />
+              </button>
+            </div><!-- /slider-->
+
+          </div><!-- /goals -->
+          <div class="statistics">
+            <h3>Outcome Statistics</h3>
+            <div class="statistics-content">
+              <div class="statistic shopping">
+                <div class="statistic-img "></div>
+                <div class="progress-line">
+                  <progress value="52" max="100"></progress>
+                  <span>Shoppping</span>
+                </div>
+                <div class="lable">52%</div>
+              </div><!-- /shopping -->
+              <div class="statistic electonics">
+                <div class="statistic-img"></div>
+                <div class="progress-line">
+                  <progress value="21" max="100"></progress>
+                  <span>Electonics</span>
+                </div>
+                <div class="lable">21%</div>
+              </div><!-- /electronics -->
+              <div class="statistic travels">
+                <div class="statistic-img"></div>
+                <div class="progress-line">
+                  <progress value="74" max="100"></progress>
+                  <span>Travels</span>
+                </div>
+                <div class="lable">74%</div>
+              </div><!-- /travels -->
+
+            </div>
+          </div><!-- /statistics -->
+          <div class="last-section">
+            <div class="new-trasaction">
+              <h3>New transaction</h3>
+              <div class="people">
+                <div class="person">
+                  <img src="img/newTransaction/1.png" alt="person">
+                  <p>Ann</p>
+                </div>
+                <div class="person">
+                  <img src="img/newTransaction/2.png" alt="person">
+                  <p>Monica</p>
+                </div>
+                <div class="person">
+                  <img src="img/newTransaction/3.png" alt="person">
+                  <p>John</p>
+                </div>
+                <div class="person">
+                  <img src="img/newTransaction/4.png" alt="person">
+                  <p>Mike</p>
+                </div>
+                <div class="person">
+                  <img src="img/newTransaction/5.png" alt="person">
+                  <p>Mia</p>
+                </div>
+                <div class="addNew">
+                  <button class="addTransaction" ></button>
+                  <p>Add New</p>
+                </div>
+              </div>
+              <div class="send-transfer">
+                <input id="amount" type="text" pattern="[0-9]{6}" maxlength="6" placeholder="0">
+                <button onclick="document.getElementById('id02').style.display='block'">Send the transfer</button>
+
+
+                <div id="id02" class="modal">
+                  <div class="modal-content">
+                    <header>
+                      <h2>Transaction</h2>
+                      <span onclick="document.getElementById('id02').style.display='none'">&times;</span>
+                      
+                    </header>
+                    <div class="completed">
+                      Сompleted successfully
+                    </div>
+                    <footer>
+                      <button
+                        onclick="document.getElementById('id02').style.display='none' ; newTransaction()  ">OK</button>
+                    </footer>
+                  </div><!-- /modal -->
+                </div><!-- /modal-content -->
+
+              </div><!-- /send-transfer -->
+            </div><!-- /new-trasaction -->
+            <div class="great-loan">
+              <div class="poster"></div>
+              <span>Get great <br>
+                loan!<a href="#"> <img src="img/arrow-last.svg" alt="arrow"></a>
+              </span>
+            </div>
+          </div><!-- /last-section -->
+        </div><!-- /right-side -->
+        
+
+      </div><!-- /full-desktop -->
+    </div><!-- /content -->
+
+  </div><!-- /main -->
+
+
+
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<svg width="0" height="0" class="hidden">
+ <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" id="market">
+    <path d="M4.715 11.054a.5.5 0 100-1 .5.5 0 000 1zm5.5 0a.5.5 0 100-1 .5.5 0 000 1zM.714.553h2l1.34 6.695a1 1 0 001 .805h4.86a1 1 0 001-.805l.8-4.195h-8.5"  stroke-width=".996" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol> 
+  
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 11" id="car">
+    <path d="M8.204.566h-7.5v6.5h7.5v-6.5zm0 2.501h2l1.5 1.5v2.5h-3.5v-4zm-5.25 6.5a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5zm6.5 0a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" id="feather">
+    <path d="M9.512 6.087a2.735 2.735 0 00-3.868-3.868L2.57 5.294v3.872h3.87l3.07-3.08zM7.58 4.155l-6.377 6.378m7.06-3.189H4.391"  stroke-width=".927" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  
+  <symbol  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 11" id="person">
+    <path d="M8.651 9.698v-.974a1.947 1.947 0 00-1.946-1.946H2.81A1.947 1.947 0 00.865 8.724v.974m3.893-4.867a1.947 1.947 0 100-3.893 1.947 1.947 0 000 3.893z"  stroke-width=".973" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>
